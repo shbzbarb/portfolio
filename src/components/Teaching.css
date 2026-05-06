@@ -1,0 +1,25 @@
+.teach {
+  width: 100%;
+  border-collapse: collapse;
+}
+.teach th, .teach td {
+  text-align: left;
+  padding: 14px 16px;
+  border-bottom: 1px dashed var(--rule);
+  font-weight: normal;
+  vertical-align: top;
+}
+.teach th {
+  font-size: 10px;
+  color: var(--dim);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  border-top: 1px dashed var(--rule);
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.teach td:first-child { color: var(--accent); width: 9ch; font-weight: 500; }
+.teach td:nth-child(2) { color: var(--fg-2); width: 12ch; }
+.teach td:nth-child(3) { color: var(--fg); font-weight: 500; }
+.teach td:nth-child(4) { color: var(--dim); font-size: 12px; }
+.teach tr:hover td { background: var(--hl); }

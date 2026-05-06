@@ -1,0 +1,33 @@
+section.s {
+  padding: 72px 56px;
+  border-bottom: 1px solid var(--rule);
+  scroll-margin-top: 16px;
+}
+@media (max-width: 720px) { section.s { padding: 48px 24px; } }
+
+.secH {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  margin-bottom: 36px;
+}
+.secH .num {
+  font-size: 11px;
+  color: var(--accent);
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+.secH h2 {
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  margin: 0;
+  color: var(--fg);
+}
+.secH .rule {
+  flex: 1;
+  border-top: 1px dashed var(--rule);
+}
+.secH .meta { font-size: 11px; color: var(--dim); }

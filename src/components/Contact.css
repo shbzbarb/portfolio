@@ -1,0 +1,27 @@
+.contact { max-width: 60ch; }
+.contact p { color: var(--fg-2); font-size: 14px; line-height: 1.65; margin: 0 0 22px; }
+.contact .lns { display: flex; gap: 12px; flex-wrap: wrap; }
+.contact .lns a {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 18px;
+  border: 1px solid var(--rule-2);
+  color: var(--fg);
+  border-radius: 2px;
+  transition: all .15s;
+}
+.contact .lns a:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-1px);
+}
+.contact .lns a .ic { color: var(--accent); }
+.contact .lns a .lb { font-size: 13px; }
+.contact .lns a .h {
+  font-size: 11px;
+  color: var(--dim);
+  margin-top: 2px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}

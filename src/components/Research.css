@@ -1,0 +1,44 @@
+.stmt {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 28px;
+  max-width: 70ch;
+}
+.stmt p {
+  margin: 0 0 14px;
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: var(--fg-2);
+}
+.stmt p::before { content: "│ "; color: var(--rule-2); }
+.stmt p b { color: var(--fg); font-weight: 500; }
+.stmt .pull {
+  font-size: 18px;
+  line-height: 1.45;
+  padding: 0 0 0 18px;
+  margin: 22px 0;
+  border-left: 2px solid var(--accent);
+  color: var(--fg);
+}
+.stmt .pull::before { content: ""; }
+.stmt .pull em { color: var(--accent); font-style: normal; }
+
+.interests {
+  margin-top: 28px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0;
+  border-top: 1px dashed var(--rule);
+}
+@media (max-width: 720px) { .interests { grid-template-columns: 1fr; } }
+.interests .it {
+  padding: 16px 18px;
+  border-bottom: 1px dashed var(--rule);
+  border-right: 1px dashed var(--rule);
+  transition: background .15s;
+}
+.interests .it:nth-child(2n) { border-right: 0; }
+.interests .it:hover { background: var(--hl); }
+.interests .it .h { color: var(--accent); font-size: 13px; font-weight: 600; }
+.interests .it .h::before { content: "▸ "; }
+.interests .it .n { color: var(--fg-2); font-size: 12px; margin-top: 4px; }
