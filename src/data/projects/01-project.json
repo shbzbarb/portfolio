@@ -1,7 +1,7 @@
 {
   "type": "ML GAME",
-  "title": "Asteroid ML Game",
-  "kind": "[ML, Python, PyGame, PyTorch | 2025]",
+  "title": "Asteroid ML",
+  "kind": "[RL, DQN, Python, PyGame, PyTorch | 2025]",
   "blurb": "AsteroidMLGame is a python based game consisting of a spaceship and asteroids. The spaceship is controlled by a Deep Q-Network (DQN) agent.",
   "github": "https://github.com/shbzbarb/asteroidMLGame"
 }

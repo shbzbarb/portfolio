@@ -1,8 +1,8 @@
 {
   "type": "TOOL",
   "title": "ArtClassifier",
-  "kind": "[ENGINE / STACK · YEAR]",
-  "blurb": "[1–2 sentences describing the work and its contribution.]",
+  "kind": "[ResNet50, PyTorch | 2025]",
+  "blurb": "A deep learning-based system for classifying paintings into one of 14 distinct art styles.",
   "github": "https://github.com/shbzbarb/ArtDetector/tree/main",
   "url": "https://huggingface.co/spaces/ahmdshbz/ArtDetector"
 }

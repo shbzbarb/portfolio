@@ -1,8 +1,7 @@
 {
   "type": "PROTOTYPE",
   "title": "Automotive HMI",
-  "kind": "[ENGINE / STACK · YEAR]",
-  "blurb": "[1–2 sentences describing the work and its contribution.]",
-  "stat": "[KEY STAT — used in 3 published studies]",
+  "kind": "[Unity 3D | 2022]",
+  "blurb": "A VR driving simulator to investigate information and entertainment visualization.",
   "github": "https://github.com/shbzbarb/AutomotiveHMI"
 }

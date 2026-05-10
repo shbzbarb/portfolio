@@ -1,7 +1,7 @@
 {
   "type": "TOOL",
   "title": "MOS Annotator",
-  "kind": "[ENGINE / STACK · YEAR]",
-  "blurb": "[1–2 sentences. What it is, what role it played in your research, what was novel about it.]",
+  "kind": "[ResNet50, CNN, KNN, DBSCAN | 2025]",
+  "blurb": "MOSAnnotator is an image annotation tool designed specifically for efficient and precise MOS assignment.",
   "github": "https://github.com/shbzbarb/MOSAnnotator"
 }

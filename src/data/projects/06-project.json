@@ -1,8 +1,7 @@
 {
   "type": "TOOL",
   "title": "EasyOCR and Translation ML App",
-  "kind": "[ENGINE / STACK · YEAR]",
-  "blurb": "[1–2 sentences describing the work and its contribution.]",
-  "stat": "[KEY STAT — used in 3 published studies]",
+  "kind": "[EasyOCR, Helsinki-NLP OpusMT | 2025]",
+  "blurb": "A Python-based utility that extracts text from images using Optical Character Recognition (OCR) and translates it into a target language.",
   "github": "https://github.com/shbzbarb/OCRTranslate"
 }
