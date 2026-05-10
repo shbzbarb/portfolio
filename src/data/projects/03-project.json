@@ -1,7 +1,8 @@
 {
-  "type": "PROTOTYPE / TOOL / GAME",
-  "title": "[PROJECT NAME — 03]",
+  "type": "TOOL",
+  "title": "ArtClassifier",
   "kind": "[ENGINE / STACK · YEAR]",
   "blurb": "[1–2 sentences describing the work and its contribution.]",
-  "stat": "[KEY STAT — best experimental · GGJ '24]"
+  "github": "https://github.com/shbzbarb/ArtDetector/tree/main",
+  "url": "https://huggingface.co/spaces/ahmdshbz/ArtDetector"
 }

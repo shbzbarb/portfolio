@@ -5,9 +5,9 @@ const BOOT_LINES = [
   { html: '<span class="pr">sahabaj@jku</span>:<span class="cy">~/portfolio</span>$ ./init.sh', delay: 200 },
   { html: '<span class="ok">→</span> loading research_profile <span class="pink">…</span>', delay: 220 },
   { html: '<span class="ok">→</span> mounting <span class="cy">/hci</span> <span class="cy">/games</span> <span class="cy">/visualization</span>', delay: 240 },
-  { html: '<span class="ok">→</span> indexing works <span class="warn">[####······]</span> 47%', delay: 280 },
-  { html: '<span class="ok">→</span> indexing works <span class="ok">[##########]</span> done', delay: 220 },
-  { html: '<span class="ok">[ ok ]</span> profile ready · 6 sections · 0 errors', delay: 260 },
+  { html: '<span class="ok">→</span> indexing projects <span class="warn">[####······]</span> 47%', delay: 280 },
+  { html: '<span class="ok">→</span> indexing projects <span class="ok">[##########]</span> done', delay: 220 },
+  { html: '<span class="ok">[ ok ]</span> profile ready - 6 sections - 0 errors', delay: 260 },
   { html: '<span class="pr">sahabaj@jku</span>:<span class="cy">~/portfolio</span>$ <span class="pink">whoami</span>', delay: 220 },
 ]
 
@@ -64,14 +64,19 @@ export default function Hero() {
       <div className={`reveal${revealed ? ' --in' : ''}`}>
         <h1>Sahabaj Barbhuiya<span className="cur" /></h1>
         <div className="role">
-          <b>PhD researcher</b> <span className="at">@</span> Johannes Kepler Universität Linz{' '}
-          <span className="at">·</span> rePLAY Game Lab
+          <b>University Assistant/ PhD Student</b> <span className="at">@</span> <a href="https://www.jku.at/en/institute-of-computer-graphics/about-us/team/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline' }}>Johannes Kepler Universität Linz{' '}</a>
+          <span className="at">-</span> <a href="https://www.games.cg.jku.at/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline' }}>rePLAY Game Lab</a>
         </div>
         <div className="tags">
           <span className="tg">Human-Computer Interaction</span>
           <span className="tg">Computer Games</span>
+          <span className="tg">Player Experience</span>
+          <span className="tg">Games User Research</span>
+   
+          <span className="tg">Machine Learning</span>
           <span className="tg">Data Visualization</span>
-          <span className="tg">Mixed-methods research</span>
+          <span className="tg">Game Analytics</span>
+          <span className="tg">Human-AI Interaction</span>
         </div>
         <div className="quick">
           <div>

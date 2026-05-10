@@ -1,7 +1,8 @@
 {
-  "type": "PROTOTYPE / TOOL / GAME",
-  "title": "[PROJECT NAME — 04]",
+  "type": "TOOL",
+  "title": "Image Analysis and Similarity Search Project",
   "kind": "[ENGINE / STACK · YEAR]",
   "blurb": "[1–2 sentences describing the work and its contribution.]",
-  "stat": "[KEY STAT — used in 3 published studies]"
+  "stat": "[KEY STAT — used in 3 published studies]",
+  "github": "https://github.com/shbzbarb/ImageSearch"
 }

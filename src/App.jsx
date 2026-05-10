@@ -4,13 +4,13 @@ import './components/Section.css'
 import Sidebar from './components/Sidebar'
 import Hero from './components/Hero'
 import Research from './components/Research'
-import Works from './components/Works'
+import Projects from './components/Projects'
 import Teaching from './components/Teaching'
 import CV from './components/CV'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
-const SECTION_IDS = ['about', 'research', 'works', 'teaching', 'cv', 'contact']
+const SECTION_IDS = ['about', 'research', 'projects', 'teaching', 'cv', 'contact']
 
 export default function App() {
   const [activeSection, setActiveSection] = useState('about')
@@ -83,8 +83,8 @@ export default function App() {
       <main>
         <Hero />
         <Research />
-        <Works />
-<Teaching />
+        <Projects />
+        <Teaching />
         <CV />
         <Contact />
         <Footer />

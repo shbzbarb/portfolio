@@ -1,7 +1,7 @@
 {
-  "type": "PROTOTYPE / TOOL / GAME",
-  "title": "[PROJECT NAME — 02]",
+  "type": "TOOL",
+  "title": "MOS Annotator",
   "kind": "[ENGINE / STACK · YEAR]",
-  "blurb": "[1–2 sentences describing the work and its contribution.]",
-  "stat": "[KEY STAT — open-source · 1.2k stars]"
+  "blurb": "[1–2 sentences. What it is, what role it played in your research, what was novel about it.]",
+  "github": "https://github.com/shbzbarb/MOSAnnotator"
 }

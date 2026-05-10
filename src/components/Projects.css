@@ -1,12 +1,12 @@
-.works {
+.projects {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0;
   border-top: 1px dashed var(--rule);
   border-left: 1px dashed var(--rule);
 }
-@media (max-width: 720px) { .works { grid-template-columns: 1fr; } }
-.works .w {
+@media (max-width: 720px) { .projects { grid-template-columns: 1fr; } }
+.projects .w {
   padding: 22px 24px;
   border-bottom: 1px dashed var(--rule);
   border-right: 1px dashed var(--rule);
@@ -14,23 +14,23 @@
   cursor: pointer;
   position: relative;
 }
-.works .w:hover { background: var(--hl); }
-.works .w:hover .ttl { color: var(--accent); }
-.works .w:hover .arrow { transform: translate(4px, -4px); color: var(--accent); }
-.works .w .top {
+.projects .w:hover { background: var(--hl); }
+.projects .w:hover .ttl { color: var(--accent); }
+.projects .w:hover .arrow { transform: translate(4px, -4px); color: var(--accent); }
+.projects .w .top {
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: var(--dim);
   font-size: 11px;
 }
-.works .w .top .id::before { content: "// "; color: var(--rule-2); }
-.works .w .arrow {
+.projects .w .top .id::before { content: "// "; color: var(--rule-2); }
+.projects .w .arrow {
   font-size: 16px;
   color: var(--dim);
   transition: transform .2s ease, color .15s;
 }
-.works .w .ttl {
+.projects .w .ttl {
   font-size: 26px;
   font-weight: 700;
   letter-spacing: -0.02em;
@@ -38,32 +38,32 @@
   color: var(--fg);
   transition: color .2s;
 }
-.works .w .kind {
+.projects .w .kind {
   font-size: 11.5px;
   color: var(--accent);
   letter-spacing: 0.04em;
   margin-bottom: 12px;
 }
-.works .w .blurb {
+.projects .w .blurb {
   font-size: 12.5px;
   color: var(--fg-2);
   line-height: 1.6;
 }
-.works .w .stat-row {
+.projects .w .stat-row {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: end;
   gap: 10px;
   margin-top: 14px;
   padding-top: 10px;
   border-top: 1px dashed var(--rule);
 }
-.works .w .stat {
+.projects .w .stat {
   color: var(--accent);
   font-size: 11px;
 }
-.works .w .stat::before { content: "▲ "; }
-.works .w .gh-btn {
+.projects .w .stat::before { content: "▲ "; }
+.projects .w .gh-btn {
   display: inline-flex;
   align-items: center;
   gap: 5px;
@@ -78,7 +78,7 @@
   white-space: nowrap;
   flex-shrink: 0;
 }
-.works .w .gh-btn:hover { color: var(--accent); border-color: var(--accent); }
+.projects .w .gh-btn:hover { color: var(--accent); border-color: var(--accent); }
 
 .carousel-nav {
   display: flex;

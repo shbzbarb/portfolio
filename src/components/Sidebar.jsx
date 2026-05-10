@@ -4,7 +4,7 @@ import './Sidebar.css'
 const NAV_ITEMS = [
   { href: '#about',    label: 'about.md',    num: '01' },
   { href: '#research', label: 'research.md', num: '02' },
-  { href: '#works',    label: 'works/',      num: '03' },
+  { href: '#projects',    label: 'projects/',      num: '03' },
   { href: '#teaching', label: 'teaching.md', num: '04' },
   { href: '#cv',       label: 'cv.pdf',      num: '05' },
   { href: '#contact',  label: 'contact.sh',  num: '06' },
@@ -32,7 +32,7 @@ export default function Sidebar({ activeSection, theme, onThemeToggle }) {
 
       <div className="who">
         <div className="nm">Sahabaj Barbhuiya</div>
-        <div className="ro">PhD researcher · <b>HCI · Games · Viz</b><br />Johannes Kepler Universität Linz</div>
+        <div className="ro">University Assistant/ PhD Student <br />Johannes Kepler Universität Linz</div>
       </div>
 
       <nav className="tree" aria-label="Sections">
@@ -56,11 +56,11 @@ export default function Sidebar({ activeSection, theme, onThemeToggle }) {
         <div className="links">
           <a href="https://github.com/shbzbarb" target="_blank" rel="noopener">
             <span className="ic"><GitHubIcon /></span>
-            <span>github.com/shbzbarb</span>
+            <span>Github</span>
           </a>
           <a href="https://www.linkedin.com/in/sahabajbarbhuiya/" target="_blank" rel="noopener">
             <span className="ic"><LinkedInIcon /></span>
-            <span>linkedin.com/in/sahabajbarbhuiya</span>
+            <span>LinkedIn</span>
           </a>
         </div>
 <button className="theme" onClick={onThemeToggle} type="button">
