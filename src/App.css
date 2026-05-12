@@ -10,4 +10,7 @@
 main {
   padding: 0;
   max-width: 980px;
+  min-width: 0;
+  width: 100%;
+  overflow-x: clip;
 }

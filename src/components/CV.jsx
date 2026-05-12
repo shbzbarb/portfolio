@@ -31,7 +31,7 @@ export default function CV() {
           <div className="what">BSc, Computer Science</div>
           <div className="where">Assam (Central) University</div>
         </div>
-        <a href="#" className="dl">↓ download cv.pdf</a>
+        {/* <a href="#" className="dl">↓ download cv.pdf</a> */}
       </div>
     </section>
   )

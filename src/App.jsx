@@ -27,6 +27,11 @@ export default function App() {
   // Scroll-spy
   useEffect(() => {
     function spy() {
+      const atBottom = window.scrollY + window.innerHeight >= document.documentElement.scrollHeight - 8
+      if (atBottom) {
+        setActiveSection(SECTION_IDS[SECTION_IDS.length - 1])
+        return
+      }
       const y = window.scrollY + window.innerHeight * 0.28
       let active = SECTION_IDS[0]
       for (const id of SECTION_IDS) {
@@ -87,7 +92,7 @@ export default function App() {
         <Teaching />
         <CV />
         <Contact />
-        <Footer />
+        <Footer theme={theme} onThemeToggle={() => setTheme(t => t === 'light' ? 'dark' : 'light')} />
       </main>
     </div>
   )

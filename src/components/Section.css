@@ -8,9 +8,11 @@ section.s {
 .secH {
   display: flex;
   align-items: baseline;
-  gap: 16px;
+  flex-wrap: wrap;
+  gap: 10px 16px;
   margin-bottom: 36px;
 }
+.secH .rule { min-width: 24px; }
 .secH .num {
   font-size: 11px;
   color: var(--accent);

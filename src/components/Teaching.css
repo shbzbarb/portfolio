@@ -1,5 +1,10 @@
+.teach-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
 .teach {
   width: 100%;
+  min-width: 560px;
   border-collapse: collapse;
 }
 .teach th, .teach td {

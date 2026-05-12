@@ -20,7 +20,43 @@ aside.nav::-webkit-scrollbar-thumb { background: var(--rule-2); border-radius: 3
     height: auto;
     border-right: 0;
     border-bottom: 1px solid var(--rule);
+    padding: 20px 24px 16px;
   }
+  .nav .tree .lbl { display: none; }
+  .nav .tree ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 0;
+  }
+  .nav .tree li {
+    padding: 0;
+    flex-shrink: 0;
+  }
+  .nav .tree li::before,
+  .nav .tree li:last-child::before { display: none; }
+  .nav .tree li > a {
+    white-space: nowrap;
+    border: 1px solid var(--rule-2);
+    padding: 4px 10px;
+    margin: 0;
+    border-radius: 2px;
+    justify-content: flex-start;
+    gap: 6px;
+  }
+  .nav .tree li.--active > a::before { display: none; }
+  .nav .foot { display: none; }
+}
+
+@media (max-width: 640px) {
+  aside.nav { padding: 14px 16px 12px; }
+  .nav .who { display: none; }
+  .nav .tree ul {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .nav .tree ul::-webkit-scrollbar { display: none; }
 }
 
 .nav .brand {

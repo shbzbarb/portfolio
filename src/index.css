@@ -32,6 +32,7 @@ html.--light {
 *, *::before, *::after { box-sizing: border-box; }
 html, body { margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
+html, body { max-width: 100vw; overflow-x: clip; }
 
 body {
   background: var(--bg);
@@ -73,6 +74,66 @@ body::-webkit-scrollbar-thumb:hover { background: var(--dim); }
 
 @keyframes pulse {
   50% { opacity: .35; transform: scale(.7); }
+}
+
+@media (max-width: 880px) {
+  body { font-size: 14.5px; }
+  p, li, td, th, div, span { overflow-wrap: break-word; word-break: break-word; }
+}
+
+@media (max-width: 640px) {
+  body { font-size: 15.5px; }
+
+  /* Section headers */
+  .secH .num  { font-size: 13px; }
+  .secH h2    { font-size: 13.5px; }
+  .secH .meta { font-size: 12.5px; }
+
+  /* Hero */
+  .hero .winbar .tab { font-size: 13px; }
+  .hero .boot        { font-size: 14.5px; }
+  .hero .role        { font-size: 15px; }
+  .hero .quick .k    { font-size: 12px; }
+  .hero .quick .v    { font-size: 15px; }
+  .hero .tags .tg    { font-size: 12px; }
+
+  /* Research */
+  .stmt p          { font-size: 15.5px; }
+  .stmt .pull      { font-size: 18px; }
+  .interests .it .h { font-size: 14px; }
+  .interests .it .n { font-size: 13.5px; }
+
+  /* Projects */
+  .projects .w .id    { font-size: 12.5px; }
+  .projects .w .kind  { font-size: 13px; }
+  .projects .w .blurb { font-size: 14px; }
+  .projects .w .gh-btn { font-size: 12px; }
+  .carousel-btn        { font-size: 13px; }
+  .carousel-page       { font-size: 13px; }
+
+  /* Publications */
+  .pubs .ttl      { font-size: 16px; }
+  .pubs .auth     { font-size: 13.5px; }
+  .pubs .meta     { font-size: 12.5px; }
+  .pubs .meta .tg { font-size: 11.5px; }
+  .pubs .lks a    { font-size: 12.5px; }
+  .pubs .ven      { font-size: 12.5px; }
+
+  /* Teaching */
+  .teach th { font-size: 12px; }
+  .teach td { font-size: 14px; }
+
+  /* CV */
+  .cv .lbl        { font-size: 12px; }
+  .cv .item .yrs  { font-size: 13px; }
+  .cv .item .what { font-size: 15px; }
+  .cv .item .where { font-size: 13.5px; }
+  .cv .award      { font-size: 14px; }
+
+  /* Contact */
+  .contact p      { font-size: 15px; }
+  .contact .lns a .lb { font-size: 14px; }
+  .contact .lns a .h  { font-size: 12px; }
 }
 
 @keyframes blink {

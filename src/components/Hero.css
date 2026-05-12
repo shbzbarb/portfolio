@@ -4,6 +4,11 @@
   position: relative;
 }
 @media (max-width: 720px) { .hero { padding: 40px 24px 56px; } }
+@media (max-width: 640px) {
+  .hero .winbar .tabs { overflow-x: auto; scrollbar-width: none; }
+  .hero .winbar .tabs::-webkit-scrollbar { display: none; }
+  .hero .winbar .ctrls { display: none; }
+}
 
 .hero .winbar {
   display: flex;
@@ -85,7 +90,7 @@
 
 .hero h1 {
   font-family: inherit;
-  font-size: clamp(40px, 6.5vw, 72px);
+  font-size: clamp(36px, 6vw, 68px);
   font-weight: 700;
   letter-spacing: -0.04em;
   line-height: 1;
@@ -102,7 +107,7 @@
   animation: blink 1s steps(2, end) infinite;
 }
 
-.hero .role { font-size: 14px; color: var(--fg-2); margin-top: 14px; }
+.hero .role { font-size: 14px; color: var(--fg-2); margin-top: 14px; overflow-wrap: break-word; }
 .hero .role .at { color: var(--dim); }
 .hero .role b { color: var(--fg); font-weight: 500; }
 
